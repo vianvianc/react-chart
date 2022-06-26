@@ -316,7 +316,7 @@ class Person {
 
 const person1 = new Person('John', 'Doe', '7-8-80');
 console.log(person1.getBirthYear());
-
+//console.log(person1.getFirstName());
 
 // ELEMENT SELECTORS
 
