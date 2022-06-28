@@ -234,6 +234,14 @@ const z = color === 'red' ? 10 : 20;
 
 
 // FUNCTIONS
+
+const addNums = (num1, num2) => {
+    return num1 + num2;
+}
+console.log(addNums(3,5))
+
+
+
 function greet(greeting = 'Hello', name) {
     if(!name) {
         // console.log(greeting);
