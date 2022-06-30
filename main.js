@@ -239,6 +239,7 @@ const addNums = (num1, num2) => {
     return num1 + num2;
 }
 console.log(addNums(3,5))
+console.table(addNums(1,1))
 
 
 
